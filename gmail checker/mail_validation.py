@@ -13,10 +13,6 @@ for c in special_char:
    if c in name and c != '.' and c != '-' and c != '_':
       print('The Email address is NOT valid')
       break
-else:
-   inc += 1
-if inc == len(special_char):
-      print('The Email is valid.')
 
 else:
-   print('The Email is not VALID')
+    print('The Email address IS valid')
