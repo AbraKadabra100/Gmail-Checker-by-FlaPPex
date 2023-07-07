@@ -19,4 +19,4 @@ if inc == len(special_char):
       print('The Email is valid.')
 
 else:
-   print('Is valid')
+   print('The Email is not VALID')
